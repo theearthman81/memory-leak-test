@@ -1,0 +1,23 @@
+{
+  "name": "memory-leak-test",
+  "version": "1.0.0",
+  "description": "Basic memory leak test example.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start -- browsers ChromeHeadless_with_flags karma.conf.js"
+  },
+  "author": "James English",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.x"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "karma": "^4.1.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "mocha": "^6.1.3"
+  }
+}
